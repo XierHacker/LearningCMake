@@ -7,7 +7,4 @@
 
 void show();
 
-
-
-
 #endif //HELLOWORD2_DISPLAY_H
