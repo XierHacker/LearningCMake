@@ -3,4 +3,6 @@ project(3_HelloWorld3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(3_HelloWorld3 main.cpp function/display.cpp)
+aux_source_directory(. sourceList)
+
+add_executable(3_HelloWorld3 ${sourceList})
