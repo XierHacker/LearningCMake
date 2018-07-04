@@ -4,4 +4,4 @@ PROJECT(dynamic)
 
 SET(CMAKE_CXX_STANDARD 11)
 
-#ADD_SUBDIRECTORY(source ../lib)
+ADD_SUBDIRECTORY(source temp)
