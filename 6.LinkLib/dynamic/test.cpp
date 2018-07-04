@@ -11,3 +11,5 @@ int main()
     std::cout<<compare(a,b)<<std::endl;
     return 0;
 }
+
+

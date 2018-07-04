@@ -1,0 +1,13 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.9)
+
+#PROJECT(dynamic)
+
+SET(CMAKE_CXX_STANDARD 11)
+
+SET(lib_src compare.cpp)
+#SET(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../lib)
+
+ADD_LIBRARY(compare SHARED ${lib_src})
+
+
+
